@@ -1,0 +1,10 @@
+:root {
+  --ff: 'DM Sans';
+  --ff-ss: sans-serif;
+
+  --text-body: #15212e;
+
+  --h-screen: 100vh;
+  --h-header: 10vh;
+  --h-main: calc(var(--h-screen) - var(--h-header));
+}

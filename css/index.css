@@ -1,15 +1,7 @@
-body {
-  /* font-family: 'DM Sans', sans-serif; */
-  font-family: var(--ff), var(--ff-ss);
-  height: var(--h-screen);
-  color: var(--text-body);
-}
-
 .header {
   width: 100%;
   display: flex;
   background-color: #eaf4ff;
-
   height: var(--h-header);
 }
 
@@ -20,14 +12,6 @@ body {
 
 .footer {
   background-color: #eaf4ff;
-}
-
-main {
-  height: var(--h-main);
-}
-
-li {
-  list-style: none;
 }
 
 .heading {
@@ -91,23 +75,18 @@ li {
 }
 
 .features__item {
-  /* margin-top: 1rem; */
   margin-bottom: 1rem;
-  /* font-weight: 500; */
   font-size: 0.8rem;
 }
 
 .card__button--aside {
   background-color: transparent;
   border: 1px solid #ff5b94;
-
   padding: 1rem 1.5rem;
-  /* font-weight: 500; */
   font-size: 0.8rem;
 }
 
 .card__button--action {
-  border: none;
   padding: 1rem 1.5rem;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;

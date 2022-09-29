@@ -1,0 +1,10 @@
+body {
+  /* font-family: 'DM Sans', sans-serif; */
+  font-family: var(--ff), var(--ff-ss);
+  height: var(--h-screen);
+  color: var(--text-body);
+}
+
+main {
+  height: var(--h-main);
+}

@@ -61,6 +61,7 @@ li {
   padding: 1.5rem;
   color: #eaf4ff;
   background-color: #005275;
+  font-size: 1.5rem;
 }
 
 .details {
@@ -70,6 +71,7 @@ li {
 }
 
 .description {
+  font-size: 1.25rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -83,11 +85,16 @@ li {
   margin-bottom: 1rem;
 }
 
+.features__subheading {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
 .features__item {
   /* margin-top: 1rem; */
   margin-bottom: 1rem;
-  font-weight: 500;
-  font-size: 1rem;
+  /* font-weight: 500; */
+  font-size: 0.8rem;
 }
 
 .card__button--aside {
@@ -95,7 +102,8 @@ li {
   border: 1px solid #ff5b94;
 
   padding: 1rem 1.5rem;
-  font-weight: 500;
+  /* font-weight: 500; */
+  font-size: 0.8rem;
 }
 
 .card__button--action {
